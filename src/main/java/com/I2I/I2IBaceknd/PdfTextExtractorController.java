@@ -10,7 +10,7 @@ import java.io.*;
 
 @RestController
 @RequestMapping("/extract")
-@CrossOrigin(origins = "http://localhost:3003")
+@CrossOrigin(origins = "http://localhost:30014")
 public class PdfTextExtractorController {
 
     @GetMapping("/text")
